@@ -1,0 +1,32 @@
+body{
+    background-image: url('https://w.namu.la/s/e8015fa3f897722c1b79b6141d0d91a45188af12c3f9e13be51011d4ee45ae4f1e20b1de1635c74eb59816015147d2b675330c697e05cf258b518e65ebf42341c8fdbdb93d46dbf6674fc3a5735f6eb5629113720bae541d4e1be238e6d089cbd86b49dff13befdc9578f1df514e135c');
+    background-size: 100%;
+}
+
+#wrap{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.main{
+    display: grid;
+    place-items: center;
+}
+
+.hidden{
+    display: none;
+}
+
+#id, #pwd, button{
+    padding: 10px;
+}
+
+#loginbutton{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1{
+    color:white;
+}
