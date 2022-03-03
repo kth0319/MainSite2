@@ -9,13 +9,12 @@ body{
     min-height: 100vh;
 }
 
-.main{
+.main, .welcome, .content{
     display: grid;
     place-items: center;
-}
-
-.hidden{
-    display: none;
+    padding: 1cm;
+    background-color: black;
+    color: white;
 }
 
 #id, #pwd, button{
@@ -27,6 +26,7 @@ body{
     padding-right: 20px;
 }
 
-h1{
+a{
     color:white;
 }
+

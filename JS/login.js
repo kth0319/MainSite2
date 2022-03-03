@@ -2,7 +2,7 @@ const signUpButton = document.querySelector('#signup')
 const hidden = document.querySelector('.hidden')
 
 function goToSignUp(){
-    window.location.href = 'signup.html'
+    location.href = 'signup.html'
 }
 
 function removeHidden(e){
